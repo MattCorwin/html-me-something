@@ -1,51 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Matt's Hobbies</title>
-  </head>
-  <body>
+    <head>
+        <link rel = "stylesheet" href = "styles.css">
+        <title>Matt's Hobbies</title>
+    </head>
+    <body>
+        <div class = "document">
         <main>
         <header>
             <h1>I like to make stuff! Including:</h1> 
         </header>
         
-        <h2>
+        <h2 id = "menu">
             <ul>
-                <li>Structures</li>
-                <li>Devices and Applications</li>
-                <li>Beer</li>
-                <li>Children</li>
+                <li><a href = "#Structures">Structures</a></li>
+                <li><a href = "#Beer">Beer</a></li>
+                <li><a href = "#Devices">Devices and Applications</a></li>
+                <li><a href = "#Children">Children</a></li>
             </ul>
         </h2>
         </main>
 
         <article>
             <header>
-                <h2>Structures</h2>
+                <h2  class = "Section" id = "Structures">Structures</h2>
             </header>
             <p>I enjoy making things with my hands, and have recently had the opportunity to build my own workshop.</p>
-            <img src = "#" alt = "A barn under construction"
+            <img src = "images/shop1.jpg" alt = "A barn under construction">
+            <img src = "images/shop2.jpg" alt = "A barn with partially framed roof">
         </article>
         <article>
             <header>
-                <h2>Beer</h2>
+                <h2 class = "Section id = "Beer">Beer</h2>
             </header>
             
-            <p>I have been brewing beer for 10 years, and enjoy creating various styles</p>
-            
+            <p>I have been brewing beer for 10 years, and enjoy experimenting with various styles and flavors. I got started brewing Belgian beers, 
+                but I've branched out to IPAs, stouts, and many other styles.
+            </p>
+            <img src = "images/homebrew1.gif" alt = "Several carboys full of beer">
+            <img src = "images/brewing2.JPG" alt = "A three vessel homebrewing system">
         </article>
         <article>
                 <header>
-                    <h2>Devices and Applications</h2>
+                    <h2 class = "Section id = "Devices">Devices and Applications</h2>
                 </header>
+                <p>I enjoy using microcontrollers to accomplish various tasks, from my Arduino controlled 240 volt homebrewing system
+                    to my Raspberry Pi web server. I also enjoy making web applications like the one you are viewing now!
+                </p>
+                <img src = "images/arduino.jpg" alt = "An Arduino microcontroller">
+                <img src = "images/raspberrypi.jpg" alt = "A Raspberry Pi microcontroller">
       
                 
             </article>
             <article>
                     <header>
-                        <h2>Children</h2>
+                        <h2 class = "Section id = "Children">Children</h2>
                     </header>
-          
+                    <p>These guys are the best! My favorite thing in the world is my family, and my boys (3 and 5 years old)
+                        are hilarious.
+                    </p>
+                    <img src = "images/family1.jpg" alt = "A family picture">
+                    <img src = "images/family2.jpg" alt = "A picture of two young boys">
                     
                 </article>
 
@@ -53,5 +68,6 @@
             <h3>I hope you enjoyed this information, please reach out if you have any comments or questions. 
               You can reach me at corwin.matt@gmail.com    &copy;2018 Matt Corwin</h3>
         </footer>
+        </div>
     </body>
 </html>
